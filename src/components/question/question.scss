@@ -1,0 +1,134 @@
+.question{
+    padding: 60px 25px;
+    background-color: #222021;
+    position: relative;
+    .quest-img{
+        position: absolute;
+        bottom: -200px;
+        right: 0;
+        opacity: .3;
+    }
+}
+
+.question-title{
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    position: relative;
+        z-index: 5;
+}
+
+.question-block{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    padding-top: 60px;
+    position: relative;
+        z-index: 5;
+}
+.text-areas{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex: 1;
+    padding-top: 10px;
+}
+.input, .textarea{
+    
+    width: 100%;
+    background-color: #222021;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: none;
+    outline: 5px solid #728BAD;
+    color: white;
+    &::placeholder{
+        font-size: 18px;
+    }
+    &:focus{
+        outline: none;
+        outline: 5px solid #728BAD;
+    }
+}
+.textarea{
+    width: 100%;
+    margin: 0 auto;
+    height: 150px;
+    resize: none;
+}
+.text-question{
+    color: white;
+    font-size: 30px;
+    flex: 1;
+    font-weight: normal;
+    text-align: left;
+}
+
+.button-send-block{
+    margin: 0 auto;
+}
+
+label{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.error-input{
+    position: absolute;
+    bottom: -30px;
+    color: red;
+    left: 10px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 850px){
+    .question-block {
+        flex-direction: column-reverse;
+    }
+    .text-question {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .question {
+        padding-top: 0;
+    }
+    .question-block {
+        padding-top: 30px;
+    }
+    .text-question{
+        font-size: 25px;
+    }
+    .question-title{
+        font-size: 50px;
+    }
+    label{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+
+    .text-question {
+        font-size: 22px;
+    }
+
+    .question-title {
+        font-size: 40px;
+    }
+
+    label {
+        width: 95%;
+    }
+    .question {
+        padding: 0 10px 40px;
+        margin-top: -40px;
+    }
+}

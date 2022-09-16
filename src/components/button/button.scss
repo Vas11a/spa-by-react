@@ -1,0 +1,47 @@
+    .header-button {
+        // width: 200px;
+        padding: 7px 15px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 25px;
+        margin-top: 20px;
+        color: white;
+        background-color: #728BAD;
+        font-weight: bold;
+        transition-duration: .5s;
+        border: none;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        &:active {
+            transform: scale(1);
+        }
+    }
+
+@media screen and (max-width: 1270px) {
+    .header-button {
+        // width: 150px;
+        font-size: 25px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header-button {
+        // width: 150px;
+        font-size: 20px;
+        padding: 5px 15px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header-button {
+        // width: 150px;
+        font-size: 20px;
+        padding: 5px 15px;
+        margin: 0;
+    }
+}

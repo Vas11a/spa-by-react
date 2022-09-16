@@ -1,0 +1,33 @@
+.container.galery{
+    background-color: #222021;
+}
+
+.padd{
+    padding-top: 50px;
+}
+
+.padd2{
+    padding-top: 0;
+}
+
+.hat{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 130px;
+    border-radius: 0 0 50px 50px;
+    background-color: #1D0C06;
+    box-shadow: 0px 1px 3px 0 white;
+}
+
+@media screen and (max-width: 575px){
+    .padd {
+        padding-top: 20px;
+    }
+    .hat {
+        height: 110px;
+    }
+    .padd2 {
+        padding-top: 50px;
+    }
+}
