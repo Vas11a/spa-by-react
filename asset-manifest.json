@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/spa-by-react/static/css/main.e27df962.css",
+    "main.js": "/spa-by-react/static/js/main.e1f63786.js",
+    "static/media/sliderIm.png": "/spa-by-react/static/media/sliderIm.52141589aaa0dbcf584f.png",
+    "static/media/font.ttf": "/spa-by-react/static/media/font.d99ed80a79c38010b04a.ttf",
+    "static/media/wood.png": "/spa-by-react/static/media/wood.9b007c239b509114e022.png",
+    "static/media/companyImg.png": "/spa-by-react/static/media/companyImg.4d98e303406b99e01733.png",
+    "static/media/video.png": "/spa-by-react/static/media/video.bc64203096c3ef37d2bc.png",
+    "static/media/MAP.png": "/spa-by-react/static/media/MAP.6a4f12d961cf0c1395a0.png",
+    "static/media/ui3.png": "/spa-by-react/static/media/ui3.e44a8e1036b08c9d5cae.png",
+    "static/media/image.png": "/spa-by-react/static/media/image.8f28f9bf95e840332102.png",
+    "static/media/image-1.png": "/spa-by-react/static/media/image-1.b42a0da335e71f38c5fd.png",
+    "static/media/ui1.png": "/spa-by-react/static/media/ui1.a9d69b3359a4e96afb67.png",
+    "static/media/ui2.png": "/spa-by-react/static/media/ui2.2a3e0369a2030a938e76.png",
+    "static/media/image-2.png": "/spa-by-react/static/media/image-2.48faaaafdb07e2f6d667.png",
+    "static/media/fon.jpg": "/spa-by-react/static/media/fon.4914dd7f9247010733df.jpg",
+    "static/media/menu2.png": "/spa-by-react/static/media/menu2.b0a6eaf1931ad8a50547.png",
+    "static/media/menu.png": "/spa-by-react/static/media/menu.1a479c04ca72fb678646.png",
+    "index.html": "/spa-by-react/index.html",
+    "main.e27df962.css.map": "/spa-by-react/static/css/main.e27df962.css.map",
+    "main.e1f63786.js.map": "/spa-by-react/static/js/main.e1f63786.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e27df962.css",
+    "static/js/main.e1f63786.js"
+  ]
+}
