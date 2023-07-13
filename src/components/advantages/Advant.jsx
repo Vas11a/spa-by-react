@@ -7,6 +7,7 @@ export default function Advant() {
   return (
     <div>
         <div className="advant-block">
+            Hello world
             <div className="our-work-title adv-title">Advantages working with us</div>
             <div className="advant-main">
                 <div className="adv-img-block">
